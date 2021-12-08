@@ -11,6 +11,7 @@ public class PlayerControllerN : MonoBehaviour
      public float horizontalInput;
      public float speed = 10.0f;
      public bool gameOver=false;
+    public GameObject theNinja;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +31,16 @@ public class PlayerControllerN : MonoBehaviour
            playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
            isOnGround= false;
         }
+        
+        if (Input.GetButtonDown("Jump"))
+        {
+
+            theNinja.GetComponent<Animator>().Play("Jumping");
+        }
+    
+    
+    
+    
     }
 
     private void OnCollisionEnter(Collision collision){
