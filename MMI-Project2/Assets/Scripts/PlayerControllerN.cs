@@ -12,13 +12,14 @@ public class PlayerControllerN : MonoBehaviour
      public float speed = 10.0f;
      public bool gameOver=false;
     public GameObject theNinja;
-    
+   
 
     // Start is called before the first frame update
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
         Physics.gravity *= gravityModifier;
+
         
     }
 
@@ -36,7 +37,7 @@ public class PlayerControllerN : MonoBehaviour
         
         if (Input.GetButtonDown("Jump"))
         {
-
+            
             theNinja.GetComponent<Animator>().Play("Jumping");
         }
     
@@ -48,6 +49,9 @@ public class PlayerControllerN : MonoBehaviour
     private void OnCollisionEnter(Collision collision){
         //isOnGround=true;
         if(collision.gameObject.CompareTag("Ground") ){
+            
+            
+            
             isOnGround=true;
         }
         else if(collision.gameObject.CompareTag("Obstacle")){
