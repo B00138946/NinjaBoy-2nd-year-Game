@@ -12,7 +12,7 @@ public class PlayerControllerN : MonoBehaviour
      public float speed = 10.0f;
      public bool gameOver=false;
     public GameObject theNinja;
-   
+    public bool hasPowerup;
 
     // Start is called before the first frame update
     void Start()
@@ -59,8 +59,16 @@ public class PlayerControllerN : MonoBehaviour
             Debug.Log("Game Over!");
             
         }
+    
+    
     }
 
-   
+
+    private void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("Powerup")) {
+        hasPowerup = true;
+        Destroy(other.gameObject); } }
+
+
 
 }
