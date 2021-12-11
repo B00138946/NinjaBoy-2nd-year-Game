@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControllerN : MonoBehaviour
 {
@@ -53,11 +54,13 @@ public class PlayerControllerN : MonoBehaviour
             
             
             isOnGround=true;
+            
         }
         else if(collision.gameObject.CompareTag("Obstacle")){
+            
             gameOver=true;
             Debug.Log("Game Over!");
-            
+            SceneManager.LoadScene("gameoverScreen");
         }
     
     
@@ -68,7 +71,6 @@ public class PlayerControllerN : MonoBehaviour
         if (other.CompareTag("Powerup")) {
         hasPowerup = true;
         Destroy(other.gameObject); } }
-
 
 
 }

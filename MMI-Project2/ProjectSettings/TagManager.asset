@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Powerup
   - Stone
+  - Money
+  - Obstacle
   layers:
   - Default
   - TransparentFX
