@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-
-public class SpawnManagerX : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     public GameObject[] objectPrefabs;
     private float spawnDelay = 2;
     private float spawnInterval = 1.5f;
 
     private PlayerControllerX playerControllerScript;
-   
+    public TextMeshProUGUI gameOverText;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +18,7 @@ public class SpawnManagerX : MonoBehaviour
         InvokeRepeating("SpawnObjects", spawnDelay, spawnInterval);
         playerControllerScript = GameObject.Find("Player").GetComponent<PlayerControllerX>();
     
-        
+        gameOverText.gameObject.SetActive(true); 
     }
 
     // Spawn obstacles

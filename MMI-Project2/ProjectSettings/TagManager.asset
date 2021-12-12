@@ -9,7 +9,6 @@ TagManager:
   - Stone
   - Money
   - Obstacle
-  - money
   layers:
   - Default
   - TransparentFX

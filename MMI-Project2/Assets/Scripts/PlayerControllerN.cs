@@ -15,11 +15,6 @@ public class PlayerControllerN : MonoBehaviour
     public GameObject theNinja;
     public bool hasPowerup;
 
-    private AudioSource playerAudio;
-    public AudioClip moneySound;
-    //public bool isLow;
-    
-    
     // Start is called before the first frame update
     void Start()
     {
@@ -68,15 +63,7 @@ public class PlayerControllerN : MonoBehaviour
             SceneManager.LoadScene("gameoverScreen");
         }
     
-        else if (collision.gameObject.CompareTag("Money"))
-        {
-            
-            playerAudio.PlayOneShot(moneySound, 1.0f);
-            Destroy(collision.gameObject);
-
-        }
-
-
+    
     }
 
 
