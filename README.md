@@ -42,7 +42,7 @@
 
 1. Download the Code
 2. Make sure you have Python installed
-3. Open a powershell terminal where your index.html file is. You need to shift and right click to see Powershell appear as an option. The do the following command: py -m http.server
+3. Open a powershell terminal where your index.html file is. You need to right click to see Powershell appear as an option. Then do the following command: py -m http.server
 4. Open a web browser and type "localhost:8000/" and the game will start running
 
 
