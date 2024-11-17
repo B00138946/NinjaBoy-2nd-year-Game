@@ -2,37 +2,25 @@
  This game was created with C# using Unity in my 2nd year of computing. The aim of game is to avoid obstables by jumping. 
 
 
-
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
   
 </p>
-# Home menu
-![Image alt](https://github.com/user-attachments/assets/aef1c529-7f51-472a-9367-bf2d369257ca)
 
 
 
 ## Key Features
 
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
+* In this Game the Player moves by itself and you
+can also move left and right.
+* Main Goal in this game is to pass the levels
+without hitting obstacles.
+* You can collect coins to get points
+* You have 40 seconds to pass each level
+* If you hit an obstacle it will be Gameover and
+you'll start from the beginning making the game
+harder.
 
 ## How To Use
 
@@ -41,9 +29,4 @@
 3. Open a powershell terminal where your index.html file is. You need to right click to see Powershell appear as an option. Then do the following command: py -m http.server
 4. Open a web browser and type "localhost:8000/" and the game will start running
 
-
-
-## Download
-
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
 
