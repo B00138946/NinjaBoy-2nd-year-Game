@@ -10,7 +10,8 @@
   
 </p>
 # Home menu
-![1](https://github.com/user-attachments/assets/5bbb8f73-d2ef-4dd9-ba6d-7bccd1002586)
+![Image alt](https://github.com/user-attachments/assets/aef1c529-7f51-472a-9367-bf2d369257ca)
+
 
 
 ## Key Features
