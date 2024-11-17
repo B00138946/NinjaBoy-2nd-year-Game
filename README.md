@@ -8,6 +8,12 @@
   
 </p>
 
+## Images
+
+![Menu](https://github.com/B00138946/NinjaBoy-2nd-year-Game/blob/89a6d8e430551e874abfcce80d8798c914910a3a/1.png "Menu")
+![Menu Options](https://github.com/B00138946/NinjaBoy-2nd-year-Game/blob/89a6d8e430551e874abfcce80d8798c914910a3a/2.png "Menu Options")
+![GamePlay](https://github.com/B00138946/NinjaBoy-2nd-year-Game/blob/89a6d8e430551e874abfcce80d8798c914910a3a/3.png "Third Image")
+
 
 
 ## Key Features
