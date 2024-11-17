@@ -3,18 +3,14 @@
 
 
 
-
-
-
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
-  <a href="#related">Related</a> •
   
 </p>
 # Home menu
-![1](https://github.com/user-attachments/assets/e196aa83-087a-4ffa-93ae-d772642b5ac8)
+
 
 
 ## Key Features
@@ -38,7 +34,6 @@
   - Windows, macOS and Linux ready.
 
 ## How To Use
-
 
 1. Download the Code
 2. Make sure you have Python installed
